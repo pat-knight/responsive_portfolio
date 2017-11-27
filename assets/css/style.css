@@ -1,0 +1,259 @@
+body {
+	background-image: url(../images/dust_scratches.png);
+}
+
+.navbar {
+	width: 100%;
+	height: 50px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #ffffff;
+	border-bottom: solid 1px #cccccc;
+}
+
+.head-main {
+	margin: auto;
+}
+
+
+#head-name, #submit {
+	width: 180px;
+	height: 50px;
+	color: white;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float: left;
+	line-height: 50px;
+	margin-right: 20px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.site-menu a {
+	float: right;
+	display: block;
+	color: #777777;
+    padding: 15px 10px 0 0;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.main {
+	width: 960px;
+	margin: auto;
+	padding: 20px 0 0 0;
+}
+
+.content-header {
+	margin-left: 5px;
+	font-size: 24px;
+    padding-top: 10px;
+}
+
+.content-area{
+	background-color: #ffffff;
+	clear: left;
+}
+
+.section-main, .contact-form, .portfolio-main {
+	width: 610px;
+	background-color: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	float: left;
+	border: solid 1px #dddddd;
+	padding: 0 20px 20px 20px;
+	margin-bottom: 20px;
+}
+
+h2, h3 {
+	color: #4aaaa5;
+}
+
+.sidebar{
+	width: 230px;
+	background-color: #ffffff;
+	float: right;
+	border: solid 1px #dddddd;
+	text-align: center;
+	padding: 10px 20px 20px 20px;
+	font-size: 20px;
+}
+
+.link-box{
+	margin: auto;
+	display: table;
+	
+}
+
+.page-link {
+	float: left;
+	padding: 5px;
+
+}
+
+.about-me, .portfolio, .contact{
+	float: right;
+}
+
+.footer{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 5px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #666666;
+	border-top: solid 4px #4aaaa5;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	clear: left;
+}
+
+.copyright {
+	margin: auto;
+	margin-top: 1em;
+}
+
+
+.image {
+	float: left;
+	margin-right:20px;
+
+}
+
+p {
+	line-height: 1.5em;
+    margin-top: -.25em;
+}
+
+label {
+	float: left;
+	clear: both;
+	margin: 15px 0 5px 0;
+}
+#name, #email, #message, #submit{
+	float: left;
+	clear: both;
+}
+
+#message{
+	width: 100%;
+	height: 100px;
+}
+
+#submit{
+	margin: 20px 0 20px 0;
+}
+
+.project {
+   position: relative;
+   float: left;
+   margin: 20px 5px 25px 5px;
+   overflow: none;
+
+}
+
+.project img {
+	width: 100%;
+}
+
+.prjlabel {
+	color: white;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+	bottom: 10%; 
+	position: absolute;
+	line-height: 35px;
+}
+
+
+
+@media screen and (max-width: 980px) {
+	body{
+		width: 100%;
+		margin-bottom: 100px;
+
+	}
+
+
+	.image {
+		float: none;
+		text-align: center;
+	}
+
+	.navbar {
+		position: static;
+	}
+	
+
+}
+
+@media screen and (max-width: 768px) {
+	body{
+		width: 100%;
+		margin-bottom: 100px;
+
+	}
+
+	.sidebar, .aside, .main, .section-main, .contact-form, .portfolio-main .footer {
+        width: calc(100% - 50px);
+    	margin-left: 5px;
+    	margin-right: 5px;
+}
+
+	.navbar {
+		position: static;
+	}
+	.sidebar {
+		margin-bottom: 100px;
+	}
+	.project {
+	    width: 47%;
+    	overflow: hidden;
+    	margin: 5px;
+	}
+
+	
+@media screen and (max-width: 640px) {
+	.navbar {position: static;
+	}
+
+	.project {
+		width: 90%;
+	}
+
+
+	.navbar {
+		height: auto;
+	}
+
+	.sidebar {
+		width: 100%;
+	}
+
+	header {
+		height: 125px;
+	}
+
+	#head-name {
+		float: none;
+		width: 100%;
+		height: 50%;
+	}
+
+	.site-menu {
+		width: 100%;
+		text-align: center;
+
+	}
+	.site-menu a{
+		width: 31%;
+	}
+}
+
+
